@@ -1,0 +1,21 @@
+.content {
+ margin: 30px;
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ flex-direction: column;
+
+}
+.table {
+ margin: 30px;
+}
+
+.inputForm {
+ display: flex;
+ justify-content: space-between;
+ width: 400px;
+}
+
+.inputForm button {
+ margin: 5px;
+}

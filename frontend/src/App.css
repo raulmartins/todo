@@ -1,0 +1,34 @@
+:root{
+ --bg-gradiente:linear-gradient(to right, #1a1a1a, #434343);
+ --height-header: 150px;
+ --height-footer: 40px;
+ --shadow:
+ 0 2px 23px 0 rgba(0,0,0,0.1),
+ 0 2px 49px 0 rgba(0,0,0,0.6);
+}
+
+* {
+ box-sizing: border-box;
+ color:rgb(120, 120, 120);
+ font-family: 'Roboto Condensed', sans-serif;
+}
+
+.app {
+ margin: 0px;
+ display: grid;
+ background: var(--bg-gradiente);
+ height: 100vh;
+ grid-template-columns: 1fr;
+ grid-template-rows: var(--height-header) 1fr var(--height-footer);
+ grid-template-areas: "header" "content" "footer";
+}
+
+header.header {
+ grid-area: header;
+}
+main.content {
+ grid-area: content;
+}
+footer.footer {
+ grid-area: footer;
+}

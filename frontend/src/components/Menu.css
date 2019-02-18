@@ -1,0 +1,8 @@
+.container a {
+ transition: 0.5s;
+}
+
+.container a:hover {
+ background: rgb(202, 199, 199);
+ border-radius: 5px;
+}
